@@ -4,19 +4,28 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>SIMPLY CHOCOLATE</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+         rel="stylesheet"
+      />
+      <link rel="stylesheet" href="./css/styles.css" />
    </head>
    <body>
       <header>
          <nav>
-            <a href="./index.html"
+            <a class="logo" href="./index.html"
                >SIMPLY CHOCOLATE
                <img src="./images/chocolate.svg" alt="logo chokolate"
             /></a>
 
             <ul>
-               <li><a href="./index.html">Home</a></li>
-               <li><a href="#made">How it’s made?</a></li>
-               <li><a href="#loved">Chocolate is loved</a></li>
+               <li><a class="header-link" href="./index.html">Home</a></li>
+               <li><a class="header-link" href="#made">How it’s made?</a></li>
+               <li>
+                  <a class="header-link" href="#loved">Chocolate is loved</a>
+               </li>
             </ul>
          </nav>
          <ul>
@@ -42,22 +51,22 @@
       </header>
 
       <main>
-         <section>
-            <h1>
+         <section class="hero">
+            <h1 class="hero-title">
                Treat yourself or a loved one to our finest ingredients for a
                moment of pure delight!
             </h1>
-            <button type="button">Buy now</button>
-            <a href="#made">How it’s made</a>
-            <a href="#footer">scroll down</a>
+            <button class="hero-button" type="button">Buy now</button>
+            <a class="hero-made" href="#made">How it’s made</a>
+            <a class="hero-scroll" href="#footer">scroll down</a>
          </section>
 
-         <section>
+         <section class="advantage-section">
             <h2 hidden>Our advantage</h2>
             <ul>
                <li>
-                  <h3>Unsurpassed taste</h3>
-                  <p>
+                  <h3 class="advantage-title">Unsurpassed taste</h3>
+                  <p class="advantage-text">
                      Crafted with the finest quality cocoa beans and a
                      dedication to perfection, each bite is a decadent
                      experience that simply cannot be matched. Savor the
@@ -66,8 +75,8 @@
                   </p>
                </li>
                <li>
-                  <h3>Affordable price</h3>
-                  <p>
+                  <h3 class="advantage-title">Affordable price</h3>
+                  <p class="advantage-text">
                      Indulge in high-quality chocolate without breaking the bank
                      with Simply Chocolate's selection of affordable treats.
                      Enjoy mouth-watering truffles and velvety chocolate bars
@@ -76,8 +85,8 @@
                   </p>
                </li>
                <li>
-                  <h3>Own production</h3>
-                  <p>
+                  <h3 class="advantage-title">Own production</h3>
+                  <p class="advantage-text">
                      We take pride in our own production process, ensuring that
                      every step is carefully crafted to perfection. From
                      selecting the finest ingredients to handcrafting each
@@ -88,8 +97,11 @@
          </section>
 
          <section>
-            <h2>IT ALL ADDS UP TO ONE EXCEPTIONAL TASTE SENSATION</h2>
-            <p>
+            <h2 class="adds-main-title">
+               IT ALL ADDS UP TO ONE EXCEPTIONAL
+               <span class="taste-text">TASTE</span> SENSATION
+            </h2>
+            <p class="adds-main-text">
                At Simply Chocolate, we believe that the secret to exceptional
                chocolate is in the details. From the sourcing of the finest
                ingredients to the careful crafting of each individual piece,
@@ -104,7 +116,7 @@
                      width="206"
                      height="160"
                   />
-                  <h3>mILK CHOCOLATE</h3>
+                  <h3 class="adds-title">mILK CHOCOLATE</h3>
                </li>
                <li>
                   <img
@@ -113,7 +125,7 @@
                      width="206"
                      height="160"
                   />
-                  <h3>Milk</h3>
+                  <h3 class="adds-title">Milk</h3>
                </li>
                <li>
                   <img
@@ -122,7 +134,7 @@
                      width="206"
                      height="160"
                   />
-                  <h3>nuts</h3>
+                  <h3 class="adds-title">nuts</h3>
                </li>
                <li>
                   <img
@@ -131,7 +143,7 @@
                      width="206"
                      height="160"
                   />
-                  <h3>sEMI - SWEET CHOCOLATE</h3>
+                  <h3 class="adds-title">sEMI - SWEET CHOCOLATE</h3>
                </li>
             </ul>
          </section>

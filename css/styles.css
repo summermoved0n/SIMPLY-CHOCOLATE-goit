@@ -1,0 +1,132 @@
+:root {
+   --white: #fff;
+   --main-bg: #fafafa;
+   --orange: #fd9222;
+   --violet: #1e1823;
+   --black: #111;
+}
+
+body {
+   background: var(--main-bg);
+   font-family: 'Montserrat' sans-serif;
+   font-size: 14px;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul,
+ol {
+   list-style: none;
+}
+
+/**--------------HEADER---------------------*/
+
+.logo {
+   color: var(--black);
+   font-family: Montserrat;
+   font-size: 18px;
+   font-style: italic;
+   font-weight: 700;
+   line-height: 1.11;
+   letter-spacing: -0.03em;
+}
+
+.header-link {
+   color: var(--black);
+   font-family: Montserrat;
+   font-weight: 500;
+   line-height: 1.14;
+   letter-spacing: -0.02em;
+}
+
+/** ---------------SECTION-HERO---------------- */
+
+.hero {
+   background-color: rgb(117, 79, 30);
+}
+
+.hero-title {
+   color: var(--white);
+   font-family: Montserrat;
+   font-size: 28px;
+   font-weight: 500;
+   line-height: 1.21;
+   letter-spacing: -0.03em;
+}
+
+.hero-button {
+   background: var(--orange);
+   border: none;
+   color: var(--white);
+   font-family: Montserrat;
+   font-weight: 600;
+}
+
+.hero-made {
+   border: 1px solid var(--white);
+   color: var(--white);
+   font-family: Montserrat;
+   font-weight: 600;
+}
+
+.hero-scroll {
+   color: var(--white);
+   font-family: Montserrat;
+   font-weight: 500;
+   line-height: 1.29;
+   letter-spacing: -0.03em;
+}
+
+/** -----------------SECTION-2------------------ */
+
+.advantage-section {
+   background: var(--violet, #1e1823);
+}
+
+.advantage-title {
+   color: var(--white);
+   font-family: Montserrat;
+   font-size: 18px;
+   font-weight: 600;
+}
+
+.advantage-text {
+   color: rgba(255, 255, 255, 0.7);
+   font-family: Montserrat;
+   letter-spacing: -0.02em;
+}
+
+/**-----------------SECTION-3----------------- */
+
+.adds-main-title {
+   color: var(--black);
+   text-align: center;
+   font-family: Montserrat;
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 1.17;
+   letter-spacing: -0.03em;
+   text-transform: uppercase;
+}
+
+.taste-text {
+   color: var(--orange);
+}
+
+.adds-main-text {
+   color: var(--black);
+   text-align: center;
+   font-family: Montserrat;
+   line-height: 1.29;
+   letter-spacing: -0.02em;
+}
+
+.adds-title {
+   font-family: Montserrat;
+   font-weight: 600;
+   line-height: 1.29;
+   letter-spacing: -0.02em;
+   text-transform: uppercase;
+}
