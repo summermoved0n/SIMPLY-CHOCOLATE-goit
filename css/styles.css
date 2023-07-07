@@ -8,8 +8,7 @@
 
 body {
    background: var(--main-bg);
-   font-family: 'Montserrat' sans-serif;
-   font-size: 14px;
+   font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -25,7 +24,6 @@ ol {
 
 .logo {
    color: var(--black);
-   font-family: Montserrat;
    font-size: 18px;
    font-style: italic;
    font-weight: 700;
@@ -35,7 +33,6 @@ ol {
 
 .header-link {
    color: var(--black);
-   font-family: Montserrat;
    font-weight: 500;
    line-height: 1.14;
    letter-spacing: -0.02em;
@@ -49,7 +46,6 @@ ol {
 
 .hero-title {
    color: var(--white);
-   font-family: Montserrat;
    font-size: 28px;
    font-weight: 500;
    line-height: 1.21;
@@ -67,19 +63,17 @@ ol {
 .hero-made {
    border: 1px solid var(--white);
    color: var(--white);
-   font-family: Montserrat;
    font-weight: 600;
 }
 
 .hero-scroll {
    color: var(--white);
-   font-family: Montserrat;
    font-weight: 500;
    line-height: 1.29;
    letter-spacing: -0.03em;
 }
 
-/** -----------------SECTION-2------------------ */
+/** -----------------ADVANTAGES------------------ */
 
 .advantage-section {
    background: var(--violet, #1e1823);
@@ -87,23 +81,20 @@ ol {
 
 .advantage-title {
    color: var(--white);
-   font-family: Montserrat;
    font-size: 18px;
    font-weight: 600;
 }
 
 .advantage-text {
    color: rgba(255, 255, 255, 0.7);
-   font-family: Montserrat;
    letter-spacing: -0.02em;
 }
 
-/**-----------------SECTION-3----------------- */
+/**-----------------ADDS----------------- */
 
 .adds-main-title {
    color: var(--black);
    text-align: center;
-   font-family: Montserrat;
    font-size: 24px;
    font-weight: 600;
    line-height: 1.17;
@@ -111,22 +102,125 @@ ol {
    text-transform: uppercase;
 }
 
-.taste-text {
+.orange-text {
    color: var(--orange);
 }
 
 .adds-main-text {
    color: var(--black);
    text-align: center;
-   font-family: Montserrat;
    line-height: 1.29;
    letter-spacing: -0.02em;
 }
 
 .adds-title {
-   font-family: Montserrat;
    font-weight: 600;
    line-height: 1.29;
    letter-spacing: -0.02em;
    text-transform: uppercase;
+}
+
+.white {
+   color: #fff;
+}
+
+.dark {
+   color: #111;
+}
+
+/** ----------------- MADE -------------------- */
+
+.made-title {
+   color: #111;
+   text-align: center;
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 1.17;
+   letter-spacing: -0.03em;
+   text-transform: uppercase;
+}
+
+.made-text {
+   color: #111;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 1.33;
+}
+
+.made-subtext {
+   color: #111;
+   font-weight: 400;
+   line-height: 1.29;
+   letter-spacing: -0.02em;
+}
+
+/** ---------------LOVED----------------- */
+
+.loved-title {
+   color: #111;
+   text-align: center;
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 1.67;
+   letter-spacing: -0.03em;
+   text-transform: uppercase;
+}
+
+.loved-subtitle {
+   color: #111;
+   text-align: center;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 1.33;
+}
+
+.loved-text {
+   color: rgba(17, 17, 17, 0.7);
+   text-align: center;
+   font-weight: 400;
+   line-height: 1.29;
+   letter-spacing: -0.02em;
+}
+
+.loved-btn {
+   color: #111;
+   font-family: Montserrat;
+   font-size: 18px;
+   font-weight: 600;
+   background-color: transparent;
+   border-radius: 100px;
+   border: 1px solid #fd9222;
+}
+
+/** --------------FOOTER------------------ */
+
+.footer {
+   background-color: var(--violet);
+}
+
+.footer-text {
+   color: #fff;
+   font-size: 28px;
+   font-weight: 500;
+   line-height: 1.21;
+   letter-spacing: -0.02em;
+}
+
+.footer-subtext {
+   color: #fff;
+   font-weight: 500;
+   line-height: 1.29;
+}
+
+.footer-adrs {
+   color: #fff;
+   line-height: 1.29;
+   letter-spacing: -0.02em;
+}
+
+.footer-nav-text {
+   color: #fff;
+   font-weight: 500;
+   line-height: 1.14;
+   letter-spacing: -0.02em;
 }
